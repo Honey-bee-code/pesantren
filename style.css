@@ -59,6 +59,7 @@
 /* Desktop Version */
 @media (min-width: 992px) {
     .navbar {
+        background-color: transparent;
         position: fixed;
         z-index: 9999;
     }
