@@ -1,7 +1,8 @@
 /* Navbar */
 .navbar {
+    background-color: black;
     position: relative;
-    z-index: 1;
+    z-index: 9999;
 }
 .navbar-brand {
     font-family: Viga; 
@@ -57,6 +58,10 @@
 
 /* Desktop Version */
 @media (min-width: 992px) {
+    .navbar {
+        position: fixed;
+        z-index: 9999;
+    }
     .navbar-brand {
         font-size: 32px;
     }
@@ -77,7 +82,7 @@
         margin-bottom: -10px;
     }
     .jumbotron { 
-        margin-top: -75px; 
+        /* margin-top: -75px;  */
         height: 640px; 
     }
     .jumbotron .display-4 {
