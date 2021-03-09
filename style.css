@@ -48,6 +48,11 @@
     color: #fdfdfd;
     margin-top: -60px;
 }
+.footer2 {
+    margin-top: auto;
+    color: black;
+    margin-bottom: 15px;
+}
 
 /* Utility */
 .tombol {
@@ -88,5 +93,8 @@
     }
     .jumbotron .display-4 {
         font-size: 62px;
+    }
+    .konten {
+        margin-top: 100px;
     }
 }
