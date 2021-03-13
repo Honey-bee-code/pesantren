@@ -1,3 +1,6 @@
+body{
+    background-color: black;
+}
 /* Navbar */
 .navbar {
     background-color: black;
@@ -41,12 +44,21 @@
     font-weight: 900;
 }
 
+.footer{
+    color: white;
+}
+
 
 /* Utility */
 .tombol {
     text-transform: uppercase; 
     border-radius: 50px;
 }
+section{
+    padding-top: 5rem;
+}
+
+
 
 
 /* Desktop Version */
@@ -54,7 +66,7 @@
     .navbar {
         background-color: transparent;
         position: fixed;
-        z-index: 1;
+        z-index: 9999;
     }
     .navbar-brand {
         font-size: 32px;
@@ -83,7 +95,9 @@
     .jumbotron .display-4 {
         font-size: 62px;
     }
-    .konten {
-        margin-top: 100px;
+    .kontak {
+        color: white;
+        height: 540px;
     }
+    
 }
