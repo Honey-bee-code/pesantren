@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(8, 68, 3);
+    background-image: url(img/begrond.png);
 }
 /* Navbar */
 .navbar {
@@ -45,6 +45,10 @@ body{
 }
 .jumbotron .display-4 span {
     font-weight: 900;
+}
+
+.kontak {
+    height: 600px;
 }
 
 .footer{
@@ -105,9 +109,6 @@ section{
     .jumbotron .display-4 {
         font-size: 62px;
     }
-    .kontak {
-        color: white;
-        height: 600px;
-    }
+    
     
 }
