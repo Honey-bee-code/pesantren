@@ -3,6 +3,7 @@ body{
 }
 /* Navbar */
 .navbar {
+    position: fixed !important;
     background-color: black;
     position: relative;
     z-index: 9999;
