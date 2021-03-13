@@ -42,18 +42,6 @@
 }
 
 
-/* Footer */
-
-.footer , .footer a{
-    color: #fdfdfd;
-    margin-top: -60px;
-}
-.footer2 {
-    margin-top: auto;
-    color: black;
-    margin-bottom: 15px;
-}
-
 /* Utility */
 .tombol {
     text-transform: uppercase; 
@@ -66,7 +54,7 @@
     .navbar {
         background-color: transparent;
         position: fixed;
-        z-index: 9999;
+        z-index: 1;
     }
     .navbar-brand {
         font-size: 32px;
@@ -84,7 +72,8 @@
         content: ''; 
         display: block; 
         border-bottom: 3px solid #0B63DC; 
-        width: 50%; margin: auto; 
+        width: 50%; 
+        margin: auto; 
         margin-bottom: -10px;
     }
     .jumbotron { 
