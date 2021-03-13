@@ -46,13 +46,16 @@ body{
 .jumbotron .display-4 span {
     font-weight: 900;
 }
+h2{
+    text-align: center;
+}
 
 .kontak {
-    height: 600px;
+    height: 500px;
 }
 
 .footer{
-    color: white;
+    color: rgb(7, 7, 7);
 }
 
 
