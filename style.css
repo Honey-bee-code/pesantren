@@ -2,8 +2,10 @@ body{
     background-image: url(img/begrond.png);
 }
 /* Navbar */
-.navbar {
+nav{
     position: fixed !important;
+}
+.navbar {
     background-color: black;
     position: relative;
     z-index: 9999;
@@ -81,7 +83,6 @@ section{
 @media (min-width: 992px) {
     .navbar {
         background-color: transparent;
-        position: fixed;
         z-index: 9999;
     }
     .navbar-brand {
