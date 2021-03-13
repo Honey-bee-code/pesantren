@@ -1,5 +1,6 @@
 body{
     background-image: url(img/begrond.png);
+    overflow-x: hidden;
 }
 /* Navbar */
 nav{
@@ -106,10 +107,6 @@ section{
         width: 50%; 
         margin: auto; 
         margin-bottom: -10px;
-    }
-    .jumbotron { 
-        /* margin-top: -75px;  */
-        height: 640px; 
     }
     .jumbotron .display-4 {
         font-size: 62px;
