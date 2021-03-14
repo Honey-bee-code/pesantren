@@ -65,8 +65,11 @@ h2{
     margin: 10px 0;
 }
 .cp-d{
+    padding: 0 30px 0 10px;
+    background-color: rgba(0, 0, 0, 0.1);
     margin-left: 5px;
     display: grid;
+    border-radius: 10px 50px 50px 10px;
 }
 .footer{
     color: rgb(7, 7, 7);
