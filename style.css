@@ -60,7 +60,14 @@ h2{
 .kontak {
     height: 500px;
 }
-
+.cp{
+    display:flex;
+    margin: 10px 0;
+}
+.cp-d{
+    margin-left: 5px;
+    display: grid;
+}
 .footer{
     color: rgb(7, 7, 7);
 }
