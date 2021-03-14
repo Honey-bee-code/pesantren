@@ -2,6 +2,9 @@ body{
     background-image: url(img/begrond.png);
     overflow-x: hidden;
 }
+a{
+    text-decoration: none;
+}
 /* Navbar */
 nav{
     position: fixed !important;
