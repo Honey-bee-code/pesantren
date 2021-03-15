@@ -58,7 +58,7 @@ h2{
 }
 
 .kontak {
-    height: 500px;
+    justify-content: center;    
 }
 .cp{
     display:flex;
