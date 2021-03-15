@@ -74,6 +74,9 @@ h2{
     display: grid;
     border-radius: 0px 50px 50px 0px;
 }
+.map {
+    text-align: end;
+}
 .footer{
     color: rgb(7, 7, 7);
 }
