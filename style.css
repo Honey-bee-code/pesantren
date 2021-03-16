@@ -56,6 +56,9 @@ nav{
 h2{
     text-align: center;
 }
+/* .galeri{
+    height: 600px;
+} */
 
 .kontak {
     justify-content: center;    
@@ -93,7 +96,7 @@ h2{
     background-color: rgb(175, 230, 66);
 }
 section{
-    padding-top: 5rem;
+    padding-top: 7rem;
 }
 
 
